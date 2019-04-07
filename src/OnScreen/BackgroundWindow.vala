@@ -206,7 +206,7 @@ namespace Komorebi.OnScreen {
 				return false;
 			});
 
-			motion_notify_event.connect((event) => {
+			/*motion_notify_event.connect((event) => {
 
 				// No parallax when menu is open
 				if(bubbleMenu.opacity > 0) {
@@ -228,7 +228,7 @@ namespace Komorebi.OnScreen {
 				}
 
 				return true;
-			});
+			});*/
 
 			focus_out_event.connect(() => {
 
